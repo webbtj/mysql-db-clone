@@ -1,0 +1,17 @@
+{
+    "remote_db" : {
+        "name" : "my_site",
+        "host" : "mysql.mysite.com",
+        "user" : "db_user",
+        "pass" : "pass",
+        "sed_find" : "mysite\\.com"
+    },
+
+    "local_db" : {
+        "name" : "my_site",
+        "host" : "localhost",
+        "user" : "db_user",
+        "pass" : "password",
+        "sed_replace" : "mysite\\.local"
+    }
+}

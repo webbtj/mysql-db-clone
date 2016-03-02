@@ -1,0 +1,9 @@
+{
+  "name": "mysql-db-clone",
+  "version": "0.0.1",
+  "description": "clone one mysql db to another, see readme for details",
+  "main": "clone.js",
+  "scripts": {},
+  "author": "TJ Webb <tj@norex.ca>",
+  "license": "BSD-2-Clause"
+}
