@@ -14,6 +14,9 @@ of remote_db.sed_find with remote_db.sed_replace. Remember that this
 is sed, so the expressions are regex AND your are within a string,
 so double escaping is required (mysite.com would be mysite\\.com)
 
+The package comes with a sample config, you'll need to rename this or
+make your own config.json
+
 The intent of this is for devs who are working on a site and would
 normally use a remote db connection but that is too slow and the
 manual syncing process is too cumbersome. Setup the config and just run
